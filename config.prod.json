@@ -1,0 +1,9 @@
+{
+  "PRODUCTION_VERSION": "ver 1.0.0",
+  "SERVER_URI": "https://cms.tool.buffx.vn/api/v1",
+  "WEB_URI": "https://tool.buffx.vn/",
+  "SECRET": "87R2ZFWbeqduKgFxpbFQWxWxWjZqqphh6/FP4Lnd0nY=",
+  "NEXTAUTH_URL": "https://tool.buffx.vn/api/auth",
+  "TWITTER_CLIENT_ID": "cVpFT21yeUJTOWlnRzNRS0pIU0I6MTpjaQ",
+  "TWITTER_CLIENT_SECRET": "HnLYDndufeGbu7yauFPj77_8OS2wRTtohU50VYXY5ZElg4SRov"
+}

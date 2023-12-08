@@ -1,0 +1,9 @@
+{
+  "PRODUCTION_VERSION": "Ver Local",
+  "SERVER_URI": "https://be.xtool.buzzspace.tech/api/v1",
+  "WEB_URI": "http://localhost:3000",
+  "SECRET": "e082f8kTSOaW8vY/iP6bhud3F6jmIcVl4DBcJcOgEjM=",
+  "NEXTAUTH_URL": "http://localhost:3000/api/auth",
+  "TWITTER_CLIENT_ID": "MFAxRG9Hc2EzYy04X2tTaEtNblc6MTpjaQ",
+  "TWITTER_CLIENT_SECRET": "XslP4vfKzWiAjEHUnFLC6DJZG05Th1dkBibuz6imCdvLi5J53z"
+}

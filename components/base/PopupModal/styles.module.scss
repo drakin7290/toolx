@@ -1,0 +1,41 @@
+@import '~/public/styles/base.scss';
+
+.popup-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: $z-index-modal;
+  animation: showPopup 0.5s;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  @include transition-all();
+  &.open {
+    visibility: visible;
+    opacity: 1;
+  }
+  // @keyframes showPopup {
+  //   from {
+  //     opacity: 0;
+  //   }
+  //   to {
+  //     opacity: 1;
+  //   }
+  // }
+  &.center-child {
+    align-items: center;
+  }
+  &.right-top-child {
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+}
+
+.body-hidden {
+  overflow: hidden !important;
+}

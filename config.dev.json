@@ -1,0 +1,9 @@
+{
+  "PRODUCTION_VERSION": "Ver Dev",
+  "SERVER_URI": "https://be.xtool.buzzspace.tech/api/v1",
+  "WEB_URI": "https://xtool.buzzspace.tech",
+  "SECRET": "RClhxrcUFt6ibQkcwOLOkvLai6wuFIkler1Dy19KjeQ=",
+  "NEXTAUTH_URL": "https://xtool.buzzspace.tech/api/auth",
+  "TWITTER_CLIENT_ID": "dHFpWHE3WnNoYm95eVFabUFwTzQ6MTpjaQ",
+  "TWITTER_CLIENT_SECRET": "ggBxLhUb-wlc1-9TGIfgjxAo5SLSSRqjYA7vXAjqj5TnhEGs14"
+}

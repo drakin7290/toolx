@@ -1,0 +1,22 @@
+.scroll-to-top {
+  background-color: $color-purple;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  svg {
+    width: 24px;
+    height: 30px;
+  }
+}

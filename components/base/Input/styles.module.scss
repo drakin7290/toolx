@@ -1,0 +1,56 @@
+@import '~/public/styles/base.scss';
+.form-input {
+  width: 100%;
+  background-color: #fff;
+  // padding: 12px 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  .label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 140%;
+    color: $color-black;
+  }
+
+  .input-div {
+    padding: 12px 16px;
+    border-radius: 24px;
+    border: 1px solid $color-gray;
+    display: flex;
+    &.error {
+      border-color: $color-error;
+    }
+    .input {
+      color: $color-black;
+      // width: 100%;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 160%;
+      border: none;
+      outline: none;
+      flex: 1;
+      font-family: inherit;
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #9ca3af;
+        opacity: 1; /* Firefox */
+      }
+
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #9ca3af;
+      }
+
+      &::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #9ca3af;
+      }
+    }
+  }
+  .error {
+    color: $color-error;
+    font-size: 1.2rem;
+  }
+}

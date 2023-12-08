@@ -1,0 +1,63 @@
+@import '~/public/styles/base.scss';
+
+.btn-primary {
+  border-radius: 24px;
+  background-color: $color-white;
+  font-weight: 400;
+  color: black;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  // width: max-content;
+  position: relative;
+  font-family: inherit;
+  // display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+
+  &.responsive {
+    @include Responsive('mobile') {
+      padding: 6px 24px;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+  }
+
+  &.upperCase {
+    text-transform: uppercase;
+  }
+
+  &.center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.disabled {
+    cursor: default !important;
+    opacity: 0.6 !important;
+    pointer-events: none !important;
+    user-select: none !important;
+  }
+
+  &.outline {
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent !important;
+  }
+}
+
+.link-href {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,9 @@
+{
+  "PRODUCTION_VERSION": "Ver Dev",
+  "SERVER_URI": "https://staging.cms.tool.buffx.vn/api/v1",
+  "WEB_URI": "https://staging.tool.buffx.vn",
+  "SECRET": "trs214zo+1RDT2BpzzspxU/jpKUhNiWxdaIhG4ezRtc=",
+  "NEXTAUTH_URL": "https://staging.tool.buffx.vn/api/auth",
+  "TWITTER_CLIENT_ID": "cVpFT21yeUJTOWlnRzNRS0pIU0I6MTpjaQ",
+  "TWITTER_CLIENT_SECRET": "HnLYDndufeGbu7yauFPj77_8OS2wRTtohU50VYXY5ZElg4SRov"
+}
